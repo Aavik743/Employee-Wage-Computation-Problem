@@ -27,12 +27,9 @@ public class EmpWage
 		    empHrs = 0;
 		
 		}
-	    if ( empCheck == IS_FULL_TIME )
-						empHrs = 8;
-					else if ( empCheck == IS_PART_TIME )
-					    empHrs = 4;
-					empWage = empHrs * EMP_RATE_PER_HOUR;
-					System.out.println("Emp Wage:" + empWage);
-	}
+	   
+	 empWage = empHrs * EMP_RATE_PER_HOUR;
+	 System.out.println("Emp Wage:" + empWage);
+       }
 
 }
